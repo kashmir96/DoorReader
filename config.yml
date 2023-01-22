@@ -1,0 +1,54 @@
+baseURL: "https://doorreader.com"
+languageCode: en-us
+title: DoorReader
+theme: PaperMod
+
+params:
+
+  defaultTheme: light
+  disableThemeToggle: true
+
+  homeInfoParams:
+      Title: DoorReader - Access Control Door Readers
+      Content: The all in one system to manage doors, access and permissions of your tenants.
+      
+  socialIcons:
+  Name: facebook
+  Url: “https://facebook.com/”
+  Name: twitter
+  Url: “https://twitter.com/”
+
+  cover: 
+      linkFullImages: true
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true
+
+
+
+
+menu: 
+  main: 
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+
+    - identifier: contact
+      name: Contact
+      url: /contact
+      weight: 60
+
+
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      linkify: false
