@@ -39,6 +39,16 @@ menu:
       url: /posts/
       weight: 10
 
+    - identifier: features
+      name: Features
+      url: /features/
+      weight: 10
+
+    - identifier: tour
+      name: Get a Tour
+      url: /get-a-tour/
+      weight: 30
+
     - identifier: contact
       name: Contact
       url: /contact
