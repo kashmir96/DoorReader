@@ -42,11 +42,11 @@ menu:
     - identifier: features
       name: Features
       url: /features/
-      weight: 10
+      weight: 20
 
-    - identifier: tour
-      name: Get a Tour
-      url: /get-a-tour/
+    - identifier: industries
+      name: Industries
+      url: /industries/
       weight: 30
 
     - identifier: contact
